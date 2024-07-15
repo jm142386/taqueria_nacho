@@ -1,0 +1,66 @@
+<?php
+
+    $servidor = "localhost";
+    $servidor = "root";
+    $servidor = "";
+    $servidor = "usuarios";
+ 
+ $enlace = mysqli_connect ($servidos, $clave, $baseDeDatos);
+
+?>
+
+<!DOCTYPE html>
+<html>
+ <head>
+ 
+     <title> TAQUERIA NACHO  </title>
+     <link rel="stylesheet" href="estilo.css">
+</head>
+<body bgcolor="#6CC4FA"> 
+
+    
+
+    <h1>TAQUERIA NACHO </h1>
+    
+    <nav>
+        <ul>
+            <li><a href="file:///D:/JOE/tacos.html">♦ TACOS</a></li>
+            <li><a href="file:///D:/JOE/refrescos.html">♦ REFRESCOS</a></li>
+       
+
+        </ul>
+    </nav>
+    <div class="contenido"></div> 
+
+    <div class="articulos">
+        <div class="seciones">
+            <div>
+                <h2>Frase del dia...</h2>
+                <p> un buen taco siempre te aliviana ;)</p>
+
+               <p> <a href="">telefono: 55537612438 </a></p>
+       <p><a href="">CORREO: taqueria nacho@GMAIL.COM </a></p>
+      <p> <a href=""> </a></p>
+            </div>
+            <div><img src="img/logo.jpeg"</div>
+    </div>
+    
+     <script src="JavaScrip.js"></script>
+
+<section class="form-register"> 
+    <h4>Formulario Reguistro</h4>
+    <form>
+        <input class="controls" type="text" name="Nombres" id="Nombres" placeholder="Ingrese su Numbre">
+        <input class="controls" type="text" name="Apellidos" id="Apellidos" placeholder="Ingrese su Apellidos">
+        <input class="controls"type="email" name="Correo" id="Ingrese su Correo" placeholder="Ingrese su Correo">
+        <input class="controls" type="password" name="Maticula" id="Maticula" placeholder="Ingrese su Maticula">
+        <p> Estoy de acurdo con <a href="#">Terminos y condiciones </a></p>
+        <input class="controls" type="submit" value="Registrar">
+        <p><a href="#">¿ya tengo cuenta?</a></p>
+    </form>
+    </section>
+
+    </body>
+    </html>
+
+
